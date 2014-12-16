@@ -20,6 +20,6 @@ class CareerBuilder
       end
     end
 
-    letter_count
+     Hash[letter_count.sort_by { |key| key }]
   end
 end
